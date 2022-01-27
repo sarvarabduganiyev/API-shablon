@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="text-3xl w-11/12  mx-auto font-semibold mt-3 text-gray-700">
+        <div class="space-y-3 ">
+            <h1 class="text-3xl">Create POST</h1>
+            <form class="" action="form">
+                <div class="w-full max-w-4xl">
+                    <label class="font-semibod" for="title">Title*</label>
+                    <input class="w-full bg-gray-100" id="title" type="text">
+                </div>
+            </form>
+            <form class="" action="form">
+                <div class="w-full max-w-4xl">
+                    <label class="font-semibod" for="description">description*</label>
+                    <input class="w-full bg-gray-100" id="description" type="text">
+                </div>
+            </form>
+            <form class="" action="form">
+                <div class="w-full max-w-4xl">
+                    <label class="font-semibod" for="release-date">release-date*</label>
+                    <input class="w-full bg-gray-100" id="release-date" type="text">
+                </div>
+            </form>
+            <form  action="form">
+                <div class="w-full max-w-4xl">
+                    <label class="font-semibod" for="imageURL">imageURL*</label>
+                    <input class="w-full bg-gray-100" id="imageURL" type="text">
+                </div>
+            </form>
+            <form  action="form">
+                <div class="w-full max-w-4xl">
+                    <label class="font-semibod" for="developer">developer*</label>
+                    <input class="w-full bg-gray-100" id="developer" type="text">
+                </div>
+            </form>
+            <button id="btn1" class="px-12 py-2  rounded bg-teal-800 text-white">Submit</button>
+        </div>
+    </section>
+    <script src="./script/crud.js"></script>
+    <script src="./script/create.js"></script>
+</body>
+
+</html>
